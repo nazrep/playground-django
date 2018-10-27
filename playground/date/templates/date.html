@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <style>
+        .date-container {
+            text-align: center;
+            width: 400px;
+            padding: 60px 30px;
+            background-color: #f4f4f4;
+            border-radius: 15px;
+            margin: 30px auto;
+            color: #434343;
+            font-family: Helvetica;
+        }
+        .copy {
+            display: block;
+            text-align: center;
+        }
+    </style>
+    <div class="date-container">
+        <h1>Date App</h1>
+        <h3>{{ showtime }}</h3>
+    </div>
+    <small class="copy">Created by Maciek Perzankowski</small>
+{% endblock %}
